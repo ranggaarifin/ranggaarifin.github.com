@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Risalah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('data:image/jpeg;base64,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');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .message {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .signature {
+            text-align: right;
+            margin-top: 20px;
+        }
+
+        .romantic-image {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .romantic-image img {
+            width: 150px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .album {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .album img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Risalah Hati Buat Yg Mau Kepondok</h1>
+        </div>
+        
+        <div class="romantic-image">
+            <img src="IMG-20230425-WA0032.jpg" alt="Gambar Romantis">
+        </div>
+
+
+      <div class="message">
+            <p>[Buat Ayang yang mau kepondok >_<] </p>
+            
+            <p>ciee yang pulang pondok sekarang nih yee,,inget yahh pesen yang aku bilang kalo kamu jangan respon cwok" yang deketin kamulah,yang ngajak becandalah pokonya jangan respon!! ,,kenapa aku ngelarang kyk gini?? yaa soalnya aku tau pemikiran cwok kalo sesuatu yang dialakuinny th direspon sama cwek pasti bekal ketagihan,,nyaman,,ehh ujungny malah suka.</p>
+            
+			<p>ya sayangg lakuin yang aku suruh buat kali iniii ajahh,, jangan terpesona sama kakak kelas/adik kelas yang menurut kamu ganteng atau cool,,emang" kalo semisal cwok yang kamu liat itu lebih ganteng dari pada aku ,pasti bekal ada timbul rasa penasaran didalem diri kamu atau malah rasa suka??,dahlah da aku yang ganteng juga dari pada kaka kelas kamu hehewww XD. </p>
+            
+            <p>maafin aku yaa sayang kalo aku belum bisa jadi cwok yang emang bener" kamu mau, tapi aku tetep sayangg ke kamu pake cara aku sendiri ,,makanyaa kalo aku buat salah atau buat kamu kesel BILANGG SAYANGG!!! ,bilang aja apa susahnya sihh jangan ngikutin cwek" yang lain lahhh,harus ngode mahh harus bikin catatan dulu mhh ,,cukup jadi cwek yang apa" to the poin, cwek yang kyk gitu aku suka,pusing juga kalo kamu udh mulai typing" singkat gitu thh,,sekali lagi BILANGG SAYANGG!..</p>
+                        
+            <p>pokonya aku cinta kamu titik,"pacaran sama cwek yang aku idamin emang different level of happinest >_< ."</p>
+            
+            <p>[Rangga AKA Pacarnya AGHNIII]</p>
+        </div>
+        
+        <div class="signature">
+            <p>[Bandung, 14 Juli 2023.]</p>
+        </div>
+
+        <div class="album">
+            <h2>Gallery (´▽`ʃ♡ƪ)</h2>
+            <img src="IMG-20221230-WA0030.jpg" alt="Foto 1">
+            <img src="IMG-20230419-WA0067.jpg" alt="Foto 2">
+            <img src="Screenshot_2023-07-07-10-25-50-74.png" alt="Foto 3">
+			<img src="IMG-20230427-WA0042.jpg" alt="Foto 4">
+        </div>
+    </div>
+</body>
+</html>
